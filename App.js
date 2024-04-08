@@ -10,6 +10,8 @@ const App = () => {
     const [modalVisible, setModalVisible] = useState(false)
     const [itemSelected, setItemSelected] = useState({})
 
+    
+
     const handleChangeText = (text) => setTextItem(text)
 
 
