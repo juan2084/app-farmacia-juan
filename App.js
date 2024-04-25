@@ -1,5 +1,7 @@
 import { View, TextInput, Button, StyleSheet, Text, FlatList, TouchableOpacity, Modal } from "react-native";
 import React, { useState } from "react";
+import ModalCustom from "./src/components/modal/modalCustom";
+import TaskInput from "./src/components/taskInput/taskInput";
 
 
 const App = () => {
@@ -9,6 +11,8 @@ const App = () => {
 
     const [modalVisible, setModalVisible] = useState(false)
     const [itemSelected, setItemSelected] = useState({})
+
+    
 
     const handleChangeText = (text) => setTextItem(text)
 
@@ -39,14 +43,11 @@ const App = () => {
 
     return (
         <View style={styles.container}>
-            <View style={styles.inputContainer}>
-                <TextInput
-                    style={styles.input}
-                    onChangeText={handleChangeText}
-                    value={textItem}
-                />
-                <Button title="ADD" color="#5555ff" onPress={addItem} />
-            </View>
+           <TaskInput
+            textItem={textItem}
+            addItem={addItem}
+            handleChangeText={handleChangeText}
+           />
 
             <View style={styles.taskContainer}>
 
@@ -64,23 +65,14 @@ const App = () => {
                     }
                 />
             </View>
+            <ModalCustom
+                handleCancelModal={handleCancelModal}
+                handleDelete={handleDelete}
+                itemSelected={itemSelected}
+                modalVisible={modalVisible}
+            />
 
-            <Modal visible={modalVisible} animationType="slide" transparent={true}>
-                <View style={styles.modalStyles}>
-                    <View style={styles.modalContainer}>
-                        <View style={styles.textContainer}>
-                            <Text>Estas seguro que queres borrar:</Text>
-                        </View>
-                        <View style={styles.textContainer}>
-                            <Text style={styles.textModal}>{itemSelected.value}</Text>
-                        </View>
-                        <View style={styles.btnContainer}>
-                            <Button title="Borrar" onPress={handleDelete} />
-                            <Button title="Cancelar" onPress={handleCancelModal} />
-                        </View>
-                    </View>
-                </View>
-            </Modal>
+           
         </View>
     )
 }
@@ -93,18 +85,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         backgroundColor: "#888888",
         flex: 1
-    },
-    inputContainer: {
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
-        paddingHorizontal: 20,
-    },
-    input: {
-        borderBottomWidth: 1,
-        borderBottomColor: "black",
-        width: 250,
-        fontSize: 16
     },
     taskContainer: {
         marginTop: 15,
@@ -128,28 +108,4 @@ const styles = StyleSheet.create({
     flatlist: {
         width: "90%",
     },
-    modalStyles: {
-        backgroundColor: "#cccccc88",
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center"
-    },
-    modalContainer: {
-        backgroundColor: "white",
-        width: "80%",
-        alignItems: "center",
-        gap: 20,
-        paddingVertical: 20,
-        borderRadius: 7
-    },
-    textContainer: {
-        
-    },
-    btnContainer: {
-        flexDirection: "row",
-        gap: 20
-    },
-    textModal: {
-        fontWeight: "bold"
-    }
 })
