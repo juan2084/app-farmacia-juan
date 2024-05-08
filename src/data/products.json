@@ -9,11 +9,12 @@
   "stock": 20,
   "brand": "Dolce & Gabbana",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/TxfXkkF"
+  "images": "https://i.imgur.com/TxfXkkF.png"
+  
  },
  {
   "id": 2,
-  "title": "Dolce & Gabbana Pour Homme",
+  "title": "Dolce & Gabbana Homme",
   "description": "Perfume Dolce & Gabbana Pour Homme Edt, en presentación de 125Ml",
   "price": 6800,
   "discountPercentage": 17.25,
@@ -21,7 +22,7 @@
   "stock": 25,
   "brand": "Dolce & Gabbana",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/BzB2QtR"
+  "images": "https://i.imgur.com/BzB2QtR.png"
  },
  {
   "id": 3,
@@ -33,11 +34,11 @@
   "stock": 10,
   "brand": "Carolina Herrera",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/ue2rPaA"
+  "images": "https://i.imgur.com/ue2rPaA.png"
  },
  {
   "id": 4,
-  "title": "Carolina Herrera Bad Boy Superstars",
+  "title": "Carolina Herrera Bad Boy",
   "description": "Perfume Carolina Herrera Bad Boy Superstars Edt, en presentación de 100 ml",
   "price": 6300,
   "discountPercentage": 11.3,
@@ -45,7 +46,7 @@
   "stock": 15,
   "brand": "Carolina Herrera",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/88z8N6z"
+  "images": "https://i.imgur.com/88z8N6z.png"
  },
  {
   "id": 5,
@@ -57,11 +58,11 @@
   "stock": 20,
   "brand": "Versace",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/OynFbZF"
+  "images": "https://i.imgur.com/Vyf4Dmm.png"
  },
  {
   "id": 6,
-  "title": "Versace Eros Flame Edp 30 ml",
+  "title": "Versace Eros Flame Edp",
   "description": "Perfume Versace Eros Flame Edp, en presentación de 30 ml",
   "price": 4600,
   "discountPercentage": 9.86,
@@ -69,7 +70,7 @@
   "stock": 22,
   "brand": "Versace",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/Vyf4Dmm"
+  "images": "https://i.imgur.com/OynFbZF.png"
  },
  {
   "id": 7,
@@ -81,7 +82,7 @@
   "stock": 15,
   "brand": "Ralph Lauren",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/w6G2NrO"
+  "images": "https://i.imgur.com/w6G2NrO.png"
  },
  {
   "id": 8,
@@ -93,7 +94,7 @@
   "stock": 18,
   "brand": "Ralph Lauren",
   "category": "Perfumes",
-  "images": "https:\/\/imgur.com\/YLKpFVf"
+  "images": "https://i.imgur.com/YLKpFVf.png"
  },
  {
   "id": 9,
@@ -105,7 +106,7 @@
   "stock": 10,
   "brand": "Clear Men",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/RhUgQgw"
+  "images": "https://i.imgur.com/RhUgQgw.png"
  },
  {
   "id": 10,
@@ -117,7 +118,7 @@
   "stock": 12,
   "brand": "Clear Men",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/dm2Im0c"
+  "images": "https://i.imgur.com/dm2Im0c.png"
  },
  {
   "id": 11,
@@ -129,7 +130,7 @@
   "stock": 15,
   "brand": "Dove",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/svKb6IJ"
+  "images": "https://i.imgur.com/2EJMLuy.png"
  },
  {
   "id": 12,
@@ -141,7 +142,7 @@
   "stock": 20,
   "brand": "Dove",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/2EJMLuy"
+  "images": "https://i.imgur.com/IksSSap.png"
  },
  {
   "id": 13,
@@ -153,7 +154,7 @@
   "stock": 20,
   "brand": "Dove",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/IksSSap"
+  "images": "https://i.imgur.com/svKb6IJ.png"
  },
  {
   "id": 14,
@@ -165,7 +166,7 @@
   "stock": 30,
   "brand": "Elvive",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/Opq2lwz"
+  "images": "https://i.imgur.com/Opq2lwz.png"
  },
  {
   "id": 15,
@@ -177,7 +178,7 @@
   "stock": 28,
   "brand": "Elvive",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/weLCyY7"
+  "images": "https://i.imgur.com/weLCyY7.png"
  },
  {
   "id": 16,
@@ -189,7 +190,7 @@
   "stock": 20,
   "brand": "Elvive",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/4RuYQKq"
+  "images": "https://i.imgur.com/4RuYQKq.png"
  },
  {
   "id": 17,
@@ -201,11 +202,11 @@
   "stock": 10,
   "brand": "Fructis",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/3AFgutc"
+  "images": "https://i.imgur.com/3AFgutc.png"
  },
  {
   "id": 18,
-  "title": "Fructis Shampoo Vitaminado Frescor",
+  "title": "Fructis Shampoo",
   "description": "Shampoo Fructis Vitaminado Frescor",
   "price": 380,
   "discountPercentage": 8.98,
@@ -213,7 +214,7 @@
   "stock": 10,
   "brand": "Fructis",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/l1RRobB"
+  "images": "https://i.imgur.com/l1RRobB.png"
  },
  {
   "id": 19,
@@ -225,7 +226,7 @@
   "stock": 20,
   "brand": "Fructis",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/ILaGZS2"
+  "images": "https://i.imgur.com/ILaGZS2.png"
  },
  {
   "id": 20,
@@ -237,11 +238,11 @@
   "stock": 25,
   "brand": "Head & shoulders",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/wh2ZWBr"
+  "images": "https://i.imgur.com/wh2ZWBr.png"
  },
  {
   "id": 21,
-  "title": "H&S Shampoo Manzana Fresh",
+  "title": "H&S Shampoo Manzana",
   "description": "Shampoo H&S, Manzana Fresh",
   "price": 290,
   "discountPercentage": 13.6,
@@ -249,7 +250,7 @@
   "stock": 25,
   "brand": "Head & shoulders",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/DnTmtX4"
+  "images": "https://i.imgur.com/DnTmtX4.png"
  },
  {
   "id": 22,
@@ -261,11 +262,11 @@
   "stock": 30,
   "brand": "Head & shoulders",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/AvR2Awj"
+  "images": "https://i.imgur.com/AvR2Awj.png"
  },
  {
   "id": 23,
-  "title": "Shampoo Pantene Restauración",
+  "title": "Shampoo Pantene",
   "description": "Shampoo Pantene Restauración N, en presentación de 700 ml",
   "price": 630,
   "discountPercentage": 16.75,
@@ -273,7 +274,7 @@
   "stock": 20,
   "brand": "Pantene",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/sBCzcci"
+  "images": "https://i.imgur.com/sBCzcci.png"
  },
  {
   "id": 24,
@@ -285,11 +286,11 @@
   "stock": 20,
   "brand": "Pantene",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/WQk6TQQ"
+  "images": "https://i.imgur.com/WQk6TQQ.png"
  },
  {
   "id": 25,
-  "title": "Acondicionador Pantene 3 Minute",
+  "title": "Acondicionador Pantene",
   "description": "Acondicionador Pantene 3 Minute Miracle liso extremo. En presentación de 170 ml",
   "price": 430,
   "discountPercentage": 15.7,
@@ -297,7 +298,7 @@
   "stock": 40,
   "brand": "Pantene",
   "category": "Cuidado Personal",
-  "images": "https:\/\/imgur.com\/kB3CP4G"
+  "images": "https://i.imgur.com/kB3CP4G.png"
  },
  {
   "id": 26,
@@ -309,7 +310,7 @@
   "stock": 40,
   "brand": "Dr. Selby",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/80hOxvX"
+  "images": "https://i.imgur.com/V0kl8D8.png"
  },
  {
   "id": 27,
@@ -321,11 +322,11 @@
   "stock": 45,
   "brand": "Dr. Selby",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/V0kl8D8"
+  "images": "https://i.imgur.com/80hOxvX.png"
  },
  {
   "id": 28,
-  "title": "J&J Colonia Fresca Caricia",
+  "title": "J&J Colonia Caricia",
   "description": "Colonia Fresca Caricia J&J ",
   "price": 370,
   "discountPercentage": 12.54,
@@ -333,7 +334,7 @@
   "stock": 42,
   "brand": "Jhonson & Jhonson",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/a2WXIQT"
+  "images": "https://i.imgur.com/a2WXIQT.png"
  },
  {
   "id": 29,
@@ -345,7 +346,7 @@
   "stock": 40,
   "brand": "Jhonson & Jhonson",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/tZGYyxI"
+  "images": "https://i.imgur.com/tZGYyxI.png"
  },
  {
   "id": 30,
@@ -357,7 +358,7 @@
   "stock": 25,
   "brand": "NUK",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/m5a7bHR"
+  "images": "https://i.imgur.com/m5a7bHR.png"
  },
  {
   "id": 31,
@@ -369,11 +370,11 @@
   "stock": 30,
   "brand": "NUK",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/APeqqyr"
+  "images": "https://i.imgur.com/APeqqyr.png"
  },
  {
   "id": 32,
-  "title": "Biberon con tetina fisiológica SX PRO de 0-3 meses con flujo S (Poco)",
+  "title": "Biberon 0-3 meses",
   "description": "Biberon con tetina fisiológica SX PRO de 0-3 meses con flujo S (Poco)",
   "price": 920,
   "discountPercentage": 10.87,
@@ -381,11 +382,11 @@
   "stock": 25,
   "brand": "Suavinex",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/veZdqxw"
+  "images": "https://i.imgur.com/veZdqxw.png"
  },
  {
   "id": 33,
-  "title": "Biberon con tetina fisiológica SX PRO de 3-6 meses con flujo M (Medio)",
+  "title": "Biberon 3-6 meses",
   "description": "Biberon con tetina fisiológica SX PRO de 3-6 meses con flujo M (Medio)",
   "price": 1050,
   "discountPercentage": 12.31,
@@ -393,7 +394,7 @@
   "stock": 20,
   "brand": "Suavinex",
   "category": "Bebés",
-  "images": "https:\/\/imgur.com\/29XWaMJ"
+  "images": "https://i.imgur.com/29XWaMJ.png"
  },
  {
   "id": 34,
@@ -405,7 +406,7 @@
   "stock": 15,
   "brand": "Bayer",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/mdE7ns6"
+  "images": "https://i.imgur.com/iHnJAuZ.png"
  },
  {
   "id": 35,
@@ -417,7 +418,7 @@
   "stock": 18,
   "brand": "Bayer",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/XASCnMy"
+  "images": "https://i.imgur.com/vsfQslx.png"
  },
  {
   "id": 36,
@@ -429,7 +430,7 @@
   "stock": 15,
   "brand": "Bayer",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/GWQzlpQ"
+  "images": "https://i.imgur.com/MOzZqxH.png"
  },
  {
   "id": 37,
@@ -441,7 +442,7 @@
   "stock": 15,
   "brand": "Bionagrin",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/yiG9XgL"
+  "images": "https://i.imgur.com/EnboQnm.png"
  },
  {
   "id": 38,
@@ -453,7 +454,7 @@
   "stock": 20,
   "brand": "Bionagrin",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/mHOGH9G"
+  "images": "https://i.imgur.com/II95UOx.png"
  },
  {
   "id": 39,
@@ -465,7 +466,7 @@
   "stock": 18,
   "brand": "Bionagrin",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/SzfITPO"
+  "images": "https://i.imgur.com/YrMvq7t.png"
  },
  {
   "id": 40,
@@ -477,7 +478,7 @@
   "stock": 25,
   "brand": "Bumak",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/SlF1y0G"
+  "images": "https://i.imgur.com/Mp4atne.png"
  },
  {
   "id": 41,
@@ -489,7 +490,7 @@
   "stock": 28,
   "brand": "Bumak",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/X9IaSyM"
+  "images": "https://i.imgur.com/zLgDYDi.png"
  },
  {
   "id": 42,
@@ -501,7 +502,7 @@
   "stock": 24,
   "brand": "Bumak",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/1BbOEpF"
+  "images": "https://i.imgur.com/pVnc2ic.png"
  },
  {
   "id": 43,
@@ -513,7 +514,7 @@
   "stock": 20,
   "brand": "Gramón Bagó",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/Vr1Qud7"
+  "images": "https://i.imgur.com/5PNxKcY.png"
  },
  {
   "id": 44,
@@ -525,7 +526,7 @@
   "stock": 25,
   "brand": "Gramón Bagó",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/89bHg8U"
+  "images": "https://i.imgur.com/TutejJO.png"
  },
  {
   "id": 45,
@@ -537,7 +538,7 @@
   "stock": 22,
   "brand": "Natural Life",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/1a2Lvq4"
+  "images": "https://i.imgur.com/1a2Lvq4.png"
  },
  {
   "id": 46,
@@ -549,7 +550,7 @@
   "stock": 25,
   "brand": "Natural Life",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/uNarKUc"
+  "images": "https://i.imgur.com/uNarKUc.png"
  },
  {
   "id": 47,
@@ -561,7 +562,7 @@
   "stock": 25,
   "brand": "Natural Life",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/2i5U81A"
+  "images": "https://i.imgur.com/2i5U81A.png"
  },
  {
   "id": 48,
@@ -573,7 +574,7 @@
   "stock": 30,
   "brand": "Qualivits",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/3Lb8opz"
+  "images": "https://i.imgur.com/3Lb8opz.png"
  },
  {
   "id": 49,
@@ -585,7 +586,7 @@
   "stock": 26,
   "brand": "Qualivits",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/KwCqz6v"
+  "images": "https://i.imgur.com/KwCqz6v.png"
  },
  {
   "id": 50,
@@ -597,7 +598,7 @@
   "stock": 35,
   "brand": "Qualivits",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/3UExrlW"
+  "images": "https://i.imgur.com/3UExrlW.png"
  },
  {
   "id": 51,
@@ -609,7 +610,7 @@
   "stock": 25,
   "brand": "Savant",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/H3h47ZE"
+  "images": "https://i.imgur.com/H3h47ZE.png"
  },
  {
   "id": 52,
@@ -621,7 +622,7 @@
   "stock": 28,
   "brand": "Savant",
   "category": "Farmacia",
-  "images": "https:\/\/imgur.com\/RxfScqG"
+  "images": "https://i.imgur.com/RxfScqG.png"
  },
  {
   "id": 53,
@@ -633,7 +634,7 @@
   "stock": 35,
   "brand": "Eucerin",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/qQTZRH1"
+  "images": "https://i.imgur.com/qQTZRH1.png"
  },
  {
   "id": 54,
@@ -645,7 +646,7 @@
   "stock": 40,
   "brand": "Eucerin",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/7Ka9Rzz"
+  "images": "https://i.imgur.com/7Ka9Rzz.png"
  },
  {
   "id": 55,
@@ -657,7 +658,7 @@
   "stock": 48,
   "brand": "Loreal",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/ryOIJEI"
+  "images": "https://i.imgur.com/ryOIJEI.png"
  },
  {
   "id": 56,
@@ -669,7 +670,7 @@
   "stock": 40,
   "brand": "Loreal",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/fNTfEwB"
+  "images": "https://i.imgur.com/fNTfEwB.png"
  },
  {
   "id": 57,
@@ -681,11 +682,11 @@
   "stock": 25,
   "brand": "Nivea",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/Y15OY9k"
+  "images": "https://i.imgur.com/Y15OY9k.png"
  },
  {
   "id": 58,
-  "title": "Nivea Sun Protect & Hidrate Locion",
+  "title": "Nivea Sun Protect",
   "description": "Sun Protect & Hidrate Locion Nivea Fps50",
   "price": 1000,
   "discountPercentage": 17.21,
@@ -693,11 +694,11 @@
   "stock": 28,
   "brand": "Nivea",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/SSyFJP0"
+  "images": "https://i.imgur.com/SSyFJP0.png"
  },
  {
   "id": 59,
-  "title": "Vichy Capital Soleil Ip30",
+  "title": "Vichy Capital Soleil",
   "description": "Vichy Capital Soleil Spray Ip30 200ml Sp Gr (Port) X 200 ml",
   "price": 2000,
   "discountPercentage": 13.13,
@@ -705,7 +706,7 @@
   "stock": 35,
   "brand": "Vichy",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/ATSS7Lt"
+  "images": "https://i.imgur.com/ATSS7Lt.png"
  },
  {
   "id": 60,
@@ -717,7 +718,7 @@
   "stock": 22,
   "brand": "Vichy",
   "category": "Solares",
-  "images": "https:\/\/imgur.com\/zuWLMAq"
+  "images": "https://i.imgur.com/zuWLMAq.png"
  },
  {
   "id": 61,
@@ -729,7 +730,7 @@
   "stock": 30,
   "brand": "Butler",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/0yRRM6s"
+  "images": "https://i.imgur.com/0yRRM6s.png"
  },
  {
   "id": 62,
@@ -741,7 +742,7 @@
   "stock": 35,
   "brand": "Butler",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/DhvGb0c"
+  "images": "https://i.imgur.com/DhvGb0c.png"
  },
  {
   "id": 63,
@@ -753,7 +754,7 @@
   "stock": 10,
   "brand": "Citizen",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/Wt8chy3"
+  "images": "https://i.imgur.com/Wt8chy3.png"
  },
  {
   "id": 64,
@@ -765,7 +766,7 @@
   "stock": 12,
   "brand": "Citizen",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/5bcgGEf"
+  "images": "https://i.imgur.com/5bcgGEf.png"
  },
  {
   "id": 65,
@@ -777,7 +778,7 @@
   "stock": 8,
   "brand": "Xion",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/hBSE1w8"
+  "images": "https://i.imgur.com/hBSE1w8.png"
  },
  {
   "id": 66,
@@ -789,7 +790,7 @@
   "stock": 15,
   "brand": "Xion",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/SbYHusL"
+  "images": "https://i.imgur.com/SbYHusL.png"
  },
  {
   "id": 67,
@@ -801,7 +802,7 @@
   "stock": 20,
   "brand": "Xion",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/nFuqHFB"
+  "images": "https://i.imgur.com/nFuqHFB.png"
  },
  {
   "id": 68,
@@ -813,6 +814,6 @@
   "stock": 14,
   "brand": "Xion",
   "category": "Electrónica",
-  "images": "https:\/\/imgur.com\/v6jprgi"
+  "images": "https://i.imgur.com/v6jprgi.png"
  }
 ]
