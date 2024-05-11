@@ -5,10 +5,17 @@ import products from '../data/products.json'
 import ProductItem from '../components/ProductItem'
 import Search from '../components/Search'
  
-const ItemListCategory = ({categorySelected = "", setCategorySelected = () => {}}) => {
+const ItemListCategory = ({
+  setCategorySelected = () => {},
+  navigation, 
+  route
+}) => {
+  
     const [keyWord, setKeyword] = useState("")
     const [productFiltered, setProductFiltered] = useState([])
     const [error, setError] =useState("")
+
+    const {category: categorySelected} = route.params
 
     useEffect(() => {
       regex = /[^a-zA-Z0-9]/
@@ -30,13 +37,12 @@ const ItemListCategory = ({categorySelected = "", setCategorySelected = () => {}
 
   return (
     <View style = {styles.flatListContainer}>
-        <Search error={error} onSearch={setKeyword} goBack={() => setCategorySelected("") }/>
+        <Search error={error} onSearch={setKeyword} goBack={() => navigation.goBack()}/>
         <FlatList
             data = {productFiltered} 
-            renderItem = {({item}) => <ProductItem product={item}/>}
+            renderItem = {({item}) => <ProductItem product={item} navigation={navigation}/>}
             keyExtractor = {(producto) => producto.id}
         />
-      {/* <Text>ItemListCategory</Text> */}
     </View>
   )
 }

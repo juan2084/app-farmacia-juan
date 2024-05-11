@@ -2,6 +2,7 @@ import { StyleSheet, View } from 'react-native'
 import React from 'react'
 import { colors } from '../constants/colors'
 
+
 const Card = ({children, style}) => {
   return (
     <View style={{...styles.container, ...style}}>
@@ -13,28 +14,26 @@ const Card = ({children, style}) => {
 export default Card
 
 
-
 const styles = StyleSheet.create({
     container: {
-      backgroundColor: colors.purple,
-        height: 40,
+        backgroundColor: colors.teal600,
         width: 250,
-        flexDirection:'column',
-        shadowColor: "#000",
-        shadowOffset:{
-          width: 0,
+        height: 40,
+        shadowColor: colors.platinum,
+        shadowOffset: {
+          width: 4,
           height: 4,
         },
-        shadowOpacity: 0.50,
+        shadowOpacity: 0.30,
         shadowRadius: 4.65,
-        elevation: 9,
-        marginBottom: 10,
-        marginTop: 10, 
-        borderRadius: 10
+        elevation: 4,
+        marginRight: 10,
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     text: {
-        color: colors.darkPurple,
-        textAlign:'center',
-        fontSize: 20,
-    }
+      color: colors.darkPurple,
+      textAlign:'center',
+      fontSize: 20,
+  }
 })
