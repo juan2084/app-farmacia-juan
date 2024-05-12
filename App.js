@@ -1,34 +1,24 @@
-import { StyleSheet, View } from "react-native"
-import Home from "./src/screens/Home"
+import { Platform, SafeAreaView, StatusBar, StyleSheet, } from "react-native"
 import { colors } from "./src/constants/colors"
-import Header from "./src/components/Header"
-import ItemListCategory from "./src/screens/ItemListCategory"
-import { useState } from "react"
+import { useFonts } from "expo-font"
+import Navigator from "./src/navigation/Navigator"
 
 
 const App = () => {
-    const [categorySelected, setCategorySelected] = useState("")
-
-
-    return (
-        <View style={styles.container}>
-            <Header Title='Farmacia Juan'/>
-                {!categorySelected? (<Home setCategorySelected={setCategorySelected}/>)
-                : (<ItemListCategory categorySelected={categorySelected} setCategorySelected={setCategorySelected}/>)}
-        </View>
-    )
-
+ 
+    return (      
+        <SafeAreaView style={styles.container}>
+            <Navigator/>
+        </SafeAreaView>
+      )
 }
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 40,
+        marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
         flex: 1,
         backgroundColor: colors.lightOrange,
-        alignItems: "center",
-        marginTop: 50
-
-    }
+    },
 })
  
 export default App

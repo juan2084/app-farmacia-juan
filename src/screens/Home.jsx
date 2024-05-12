@@ -4,9 +4,7 @@ import CategoryItem from "../components/CategoryItem"
 import categories from "../data/categories.json"
 
 
-const Home = ({setCategorySelected}) => {
-
-
+const Home = ({route, navigation}) => {
 
   return (
     <View style={styles.flatListContainer}>
@@ -15,7 +13,7 @@ const Home = ({setCategorySelected}) => {
       data={categories.sort()}
       renderItem={({item}) => (
         <CategoryItem 
-          selectCategory={setCategorySelected} 
+          navigation={navigation} 
           category={item}
         />
       )}

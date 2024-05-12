@@ -3,39 +3,24 @@ import React from 'react'
 import { colors } from '../constants/colors';
 import Card from './Card';
 
-const CategoryItem = ({category, selectCategory = () => {}}) => {
+
+const CategoryItem = ({ category, navigation }) => {
   return (
-    <Card>
-      <Pressable onPress = {() => selectCategory(category)}>
-        <Text style = {styles.text}>{category}</Text>
+    <Card style={{ marginVertical: 10, marginHorizontal: 10 }}>
+      <Pressable onPress={()=>navigation.navigate('ItemListCategory', {category})}>
+        <Text style={styles.text}>{category}</Text>
       </Pressable>
     </Card>
   )
 }
 
+
 export default CategoryItem
 
 const styles = StyleSheet.create({
-    categoryContainer: {
-      backgroundColor: colors.darkPurple,
-        height: 40,
-        width: 250,
-        flexDirection:'column',
-        shadowColor: "#000",
-        shadowOffset:{
-          width: 0,
-          height: 4,
-        },
-        shadowOpacity: 0.50,
-        shadowRadius: 4.65,
-        elevation: 9,
-        marginBottom: 10,
-        marginTop: 10
+  text: {
+    color: colors.lightGrey,
+    textAlign: "center",
+    fontSize: 24,
     },
-    text: {
-        color: colors.salmon,
-        textAlign:'center',
-        fontSize: 25,
-    }
 })
-
