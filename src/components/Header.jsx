@@ -18,8 +18,8 @@ const styles = StyleSheet.create({
     color: colors.black,
     textAlign: 'center',
     fontSize: 30,
-    textShadow: colors.lightGrey,
-    boxShadowOpacity: 0.50,
+    shadowColor: colors.lightGrey,
+    shadowOpacity: 0.50,
     fontWeight: 'bold'
   },
   container:{

@@ -14,7 +14,7 @@
  },
  {
   "id": 2,
-  "title": "Dolce & Gabbana Homme",
+  "title": "Dolce & Gabbana H",
   "description": "Perfume Dolce & Gabbana Pour Homme Edt, en presentación de 125Ml",
   "price": 6800,
   "discountPercentage": 17.25,
@@ -38,7 +38,7 @@
  },
  {
   "id": 4,
-  "title": "Carolina Herrera Bad Boy",
+  "title": "Carolina Herrera BB",
   "description": "Perfume Carolina Herrera Bad Boy Superstars Edt, en presentación de 100 ml",
   "price": 6300,
   "discountPercentage": 11.3,
@@ -98,18 +98,6 @@
  },
  {
   "id": 9,
-  "title": "Clear Men 2 En 1",
-  "description": "Shampoo Clear Men 2 en 1, en presentación de 400 ml",
-  "price": 490,
-  "discountPercentage": 15.5,
-  "rating": 4.15,
-  "stock": 10,
-  "brand": "Clear Men",
-  "category": "Cuidado Personal",
-  "images": "https://i.imgur.com/RhUgQgw.png"
- },
- {
-  "id": 10,
   "title": "Clear Men Caida Control",
   "description": "Shampoo Clear Men, control de caída, en presentación de 400 ml",
   "price": 490,
@@ -121,7 +109,7 @@
   "images": "https://i.imgur.com/dm2Im0c.png"
  },
  {
-  "id": 11,
+  "id": 10,
   "title": "Dove Deo",
   "description": "Dove Deo Barra Clinical Soft Solid O",
   "price": 415,
@@ -133,7 +121,7 @@
   "images": "https://i.imgur.com/2EJMLuy.png"
  },
  {
-  "id": 12,
+  "id": 11,
   "title": "Dove Jabón Líquido",
   "description": "Dove Jabón Líquido, recipiente de 700ml",
   "price": 280,
@@ -145,7 +133,7 @@
   "images": "https://i.imgur.com/IksSSap.png"
  },
  {
-  "id": 13,
+  "id": 12,
   "title": "Dove antitranspirante",
   "description": "Dove Desodorante antitranspirante Aerosol pera al vera",
   "price": 245,
@@ -157,7 +145,7 @@
   "images": "https://i.imgur.com/svKb6IJ.png"
  },
  {
-  "id": 14,
+  "id": 13,
   "title": "Elvive Shampoo",
   "description": "Shampoo Elvive Colorvive, en presentación de 370 ml",
   "price": 530,
@@ -169,7 +157,7 @@
   "images": "https://i.imgur.com/Opq2lwz.png"
  },
  {
-  "id": 15,
+  "id": 14,
   "title": "Elvive Acondicionador",
   "description": "Acondicionador Elvive, para reparación total",
   "price": 530,
@@ -181,7 +169,7 @@
   "images": "https://i.imgur.com/weLCyY7.png"
  },
  {
-  "id": 16,
+  "id": 15,
   "title": "Elvive Crema para peinar",
   "description": "Crema para peinar Elvive, anti-hair fall leaveln. En presentación de 300ml",
   "price": 560,
@@ -193,7 +181,7 @@
   "images": "https://i.imgur.com/4RuYQKq.png"
  },
  {
-  "id": 17,
+  "id": 16,
   "title": "Fructis Crema para peinar",
   "description": "Crema para peinar Fructis. Recarga Nutritiva. En presentación de  300ml",
   "price": 380,
@@ -205,7 +193,7 @@
   "images": "https://i.imgur.com/3AFgutc.png"
  },
  {
-  "id": 18,
+  "id": 17,
   "title": "Fructis Shampoo",
   "description": "Shampoo Fructis Vitaminado Frescor",
   "price": 380,
@@ -217,7 +205,7 @@
   "images": "https://i.imgur.com/l1RRobB.png"
  },
  {
-  "id": 19,
+  "id": 18,
   "title": "Fructis Shampoo Pro",
   "description": "Shampoo Fractus Pro. Adios Esponjado. En presentación de 350ml",
   "price": 340,
@@ -229,7 +217,7 @@
   "images": "https://i.imgur.com/ILaGZS2.png"
  },
  {
-  "id": 20,
+  "id": 19,
   "title": "H&S Shampoo Sensitive",
   "description": "Shampoo H&S dermo sensitive, en presentación de 375ml",
   "price": 460,
@@ -241,7 +229,7 @@
   "images": "https://i.imgur.com/wh2ZWBr.png"
  },
  {
-  "id": 21,
+  "id": 20,
   "title": "H&S Shampoo Manzana",
   "description": "Shampoo H&S, Manzana Fresh",
   "price": 290,
@@ -253,7 +241,7 @@
   "images": "https://i.imgur.com/DnTmtX4.png"
  },
  {
-  "id": 22,
+  "id": 21,
   "title": "H&S Shampoo 3 en 1",
   "description": "Shampoo H&S  3 en 1, para hombres",
   "price": 460,
@@ -265,7 +253,7 @@
   "images": "https://i.imgur.com/AvR2Awj.png"
  },
  {
-  "id": 23,
+  "id": 22,
   "title": "Shampoo Pantene",
   "description": "Shampoo Pantene Restauración N, en presentación de 700 ml",
   "price": 630,
@@ -277,7 +265,7 @@
   "images": "https://i.imgur.com/sBCzcci.png"
  },
  {
-  "id": 24,
+  "id": 23,
   "title": "Shampoo Pantene Micelar",
   "description": "Shampoo Pantene Micelar, en presentación de 200 ml",
   "price": 280,
@@ -289,7 +277,7 @@
   "images": "https://i.imgur.com/WQk6TQQ.png"
  },
  {
-  "id": 25,
+  "id": 24,
   "title": "Acondicionador Pantene",
   "description": "Acondicionador Pantene 3 Minute Miracle liso extremo. En presentación de 170 ml",
   "price": 430,
@@ -301,8 +289,8 @@
   "images": "https://i.imgur.com/kB3CP4G.png"
  },
  {
-  "id": 26,
-  "title": "Toallitas Dr Selby Bebe X 60",
+  "id": 25,
+  "title": "Toallitas Dr Selby",
   "description": "Toallitas Dr Selby Bebe. En presentación caja de 60",
   "price": 200,
   "discountPercentage": 6.85,
@@ -313,7 +301,7 @@
   "images": "https://i.imgur.com/V0kl8D8.png"
  },
  {
-  "id": 27,
+  "id": 26,
   "title": "Talco Bebé",
   "description": "Talco Bebe & Avena. En presentación de 160 gramos",
   "price": 220,
@@ -325,7 +313,7 @@
   "images": "https://i.imgur.com/80hOxvX.png"
  },
  {
-  "id": 28,
+  "id": 27,
   "title": "J&J Colonia Caricia",
   "description": "Colonia Fresca Caricia J&J ",
   "price": 370,
@@ -337,8 +325,8 @@
   "images": "https://i.imgur.com/a2WXIQT.png"
  },
  {
-  "id": 29,
-  "title": "J&J Polvo de Almidon-Fecula",
+  "id": 28,
+  "title": "J&J Polvo de Almidon",
   "description": "Polvo de Almidón-Fécula J&J. En presentación de 200 gramos",
   "price": 380,
   "discountPercentage": 10.14,
@@ -349,7 +337,7 @@
   "images": "https://i.imgur.com/tZGYyxI.png"
  },
  {
-  "id": 30,
+  "id": 29,
   "title": "Nuk Chupete Talle 1",
   "description": "Chupete Nuk Sil Happy Days. Talle 1",
   "price": 560,
@@ -361,7 +349,7 @@
   "images": "https://i.imgur.com/m5a7bHR.png"
  },
  {
-  "id": 31,
+  "id": 30,
   "title": "Nuk Chupete Talle 2",
   "description": "Chupete Nuk Sil Happy Days.Talle 2",
   "price": 560,
@@ -373,7 +361,7 @@
   "images": "https://i.imgur.com/APeqqyr.png"
  },
  {
-  "id": 32,
+  "id": 31,
   "title": "Biberon 0-3 meses",
   "description": "Biberon con tetina fisiológica SX PRO de 0-3 meses con flujo S (Poco)",
   "price": 920,
@@ -385,7 +373,7 @@
   "images": "https://i.imgur.com/veZdqxw.png"
  },
  {
-  "id": 33,
+  "id": 32,
   "title": "Biberon 3-6 meses",
   "description": "Biberon con tetina fisiológica SX PRO de 3-6 meses con flujo M (Medio)",
   "price": 1050,
@@ -397,79 +385,79 @@
   "images": "https://i.imgur.com/29XWaMJ.png"
  },
  {
-  "id": 34,
-  "title": "Aspirina",
-  "description": "Aspirina. En presentación de 10 comprimidos",
-  "price": 100,
+  "id": 33,
+  "title": "Preterax",
+  "description": "Preterax. Antiinflamatorio, en presentación de 10/2,5 Mg",
+  "price": 1340,
   "discountPercentage": 12.21,
   "rating": 4.18,
   "stock": 15,
-  "brand": "Bayer",
+  "brand": "Servier",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/iHnJAuZ.png"
+  "images": "https://i.imgur.com/PL9voWK.png"
  },
  {
-  "id": 35,
-  "title": "Aspirina C NF",
-  "description": "Aspirina C NF",
-  "price": 70,
+  "id": 34,
+  "title": "Bronax",
+  "description": "Bronax. Solución oftálmica estéril",
+  "price": 1580,
   "discountPercentage": 15.2,
   "rating": 4.08,
   "stock": 18,
-  "brand": "Bayer",
+  "brand": "Poen",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/vsfQslx.png"
+  "images": "https://i.imgur.com/9UVlpYV.png"
  },
  {
-  "id": 36,
-  "title": "Actron 400",
-  "description": "Actron 400 Rápida Acción. En presentación de 10 cápsulas blandas",
-  "price": 150,
+  "id": 35,
+  "title": "Eliptic ofteno",
+  "description": "Solución oftálmica que contiene dorzolamida y timolol",
+  "price": 1780,
   "discountPercentage": 16.88,
   "rating": 4.79,
   "stock": 15,
-  "brand": "Bayer",
+  "brand": "Sophia",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/MOzZqxH.png"
+  "images": "https://i.imgur.com/DyCOPym.png"
  },
  {
-  "id": 37,
-  "title": "Hialurónico",
-  "description": "Hialurónico. En presentación de 30 cápsulas",
+  "id": 36,
+  "title": "Coveram",
+  "description": "En presentación de 30 cápsulas. Se utiliza para tratar la hipertensión arterial",
   "price": 1400,
   "discountPercentage": 14.16,
   "rating": 4.75,
   "stock": 15,
-  "brand": "Bionagrin",
+  "brand": "Servier",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/EnboQnm.png"
+  "images": "https://i.imgur.com/dV7KRWp.png"
  },
  {
-  "id": 38,
-  "title": "Ginseng + Guarana",
-  "description": "Ginseng + Guarana. En presentación de 60 cápsulas",
+  "id": 37,
+  "title": "Enteronor 16",
+  "description": "En presentación de 16 cápsulas. Es un antibiótico no absorbible utilizado en diarreas bacterianas",
   "price": 1100,
   "discountPercentage": 14.76,
   "rating": 4.15,
   "stock": 20,
-  "brand": "Bionagrin",
+  "brand": "Gramón Bagó",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/II95UOx.png"
+  "images": "https://i.imgur.com/FVow5iZ.png"
  },
  {
-  "id": 39,
-  "title": "Spirulina Forma",
-  "description": "Spirulina Forma. En presentación de 60 cápsulas",
+  "id": 38,
+  "title": "Enteronor 32",
+  "description": "En presentación de 32 cápsulas. Es un antibiótico no absorbible utilizado en diarreas bacterianas",
   "price": 890,
   "discountPercentage": 9.03,
   "rating": 4.84,
   "stock": 18,
-  "brand": "Bionagrin",
+  "brand": "Gramón Bagó",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/YrMvq7t.png"
+  "images": "https://i.imgur.com/lxXK4CK.png"
  },
  {
-  "id": 40,
+  "id": 39,
   "title": "Bcaa 2200",
   "description": "Bcaa 2200. En presentación de 160 cápsulas",
   "price": 2500,
@@ -481,7 +469,7 @@
   "images": "https://i.imgur.com/Mp4atne.png"
  },
  {
-  "id": 41,
+  "id": 40,
   "title": "Vitamina B12",
   "description": "Vitamina B12. En presentación de 100 comprimidos",
   "price": 1070,
@@ -493,7 +481,7 @@
   "images": "https://i.imgur.com/zLgDYDi.png"
  },
  {
-  "id": 42,
+  "id": 41,
   "title": "Vegan Protein",
   "description": "Vegan Protein 1 Libra Vainilla x 500 gramos",
   "price": 2350,
@@ -505,31 +493,31 @@
   "images": "https://i.imgur.com/pVnc2ic.png"
  },
  {
-  "id": 43,
-  "title": "Bio Grip C Soluble",
-  "description": "Bio Grip C Soluble. 1 sobre",
-  "price": 70,
+  "id": 42,
+  "title": "Lacrimax",
+  "description": "En presentación de gotas 10 mL. Actúa como lágrimas artificiales para aliviar el ojo seco",
+  "price": 818,
   "discountPercentage": 12.13,
   "rating": 4.23,
   "stock": 20,
-  "brand": "Gramón Bagó",
+  "brand": "Megalabs",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/5PNxKcY.png"
+  "images": "https://i.imgur.com/HM82V0s.png"
  },
  {
-  "id": 44,
-  "title": "Bio Grip Plus",
-  "description": "Bio Grip Plus C. En presentación de 8 comprimidos",
-  "price": 220,
+  "id": 43,
+  "title": "Tobradex",
+  "description": "En presentación de 5 mL. Es utilizado para prevenir una posible infección del ojo después de cirugía de cataratas",
+  "price": 1240,
   "discountPercentage": 13.19,
   "rating": 4.3,
   "stock": 25,
-  "brand": "Gramón Bagó",
+  "brand": "Alcon Novartis",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/TutejJO.png"
+  "images": "https://i.imgur.com/EVHoyI2.png"
  },
  {
-  "id": 45,
+  "id": 44,
   "title": "Aceite Ajo",
   "description": "Aceite Ajo N Life",
   "price": 870,
@@ -541,7 +529,7 @@
   "images": "https://i.imgur.com/1a2Lvq4.png"
  },
  {
-  "id": 46,
+  "id": 45,
   "title": "Vitamina C",
   "description": "Vitamina C - 1000 Mg. En presentación de 100 tabletas",
   "price": 1800,
@@ -553,7 +541,7 @@
   "images": "https://i.imgur.com/uNarKUc.png"
  },
  {
-  "id": 47,
+  "id": 46,
   "title": "Vitamina C Nl",
   "description": "Vitamina C Nl Gummies x 55 CAR",
   "price": 990,
@@ -565,7 +553,7 @@
   "images": "https://i.imgur.com/2i5U81A.png"
  },
  {
-  "id": 48,
+  "id": 47,
   "title": "Magnesium",
   "description": "Magnesium. En presentación de 250mg",
   "price": 1100,
@@ -577,7 +565,7 @@
   "images": "https://i.imgur.com/3Lb8opz.png"
  },
  {
-  "id": 49,
+  "id": 48,
   "title": "Vitamina B12 Plus",
   "description": "Vitamina B12 Plus. En presentación de 500mg Qualivits",
   "price": 1300,
@@ -589,7 +577,7 @@
   "images": "https://i.imgur.com/KwCqz6v.png"
  },
  {
-  "id": 50,
+  "id": 49,
   "title": "Omega 3 - Fish Oil",
   "description": "Omega 3 - Fish Oil Qualivits 1000 mg x 100 Sogtels",
   "price": 1100,
@@ -601,7 +589,7 @@
   "images": "https://i.imgur.com/3UExrlW.png"
  },
  {
-  "id": 51,
+  "id": 50,
   "title": "Fabogesic NiOo 4%",
   "description": "Fabogesic NiOo 4%",
   "price": 420,
@@ -613,19 +601,19 @@
   "images": "https://i.imgur.com/H3h47ZE.png"
  },
  {
-  "id": 52,
-  "title": "Fabogesic 600",
-  "description": "Fabogesic 600",
-  "price": 210,
+  "id": 51,
+  "title": "Corizan Duo",
+  "description": "En presentación de 12 mL. Medicamento antialérgico para administración nasal que combina un corticoide, la fluticasona, con un antihistamínico",
+  "price": 1480,
   "discountPercentage": 11.1,
   "rating": 4.18,
   "stock": 28,
-  "brand": "Savant",
+  "brand": "Celsius",
   "category": "Farmacia",
-  "images": "https://i.imgur.com/RxfScqG.png"
+  "images": "https://i.imgur.com/016Hpi7.png"
  },
  {
-  "id": 53,
+  "id": 52,
   "title": "Eucerin Solar Crema",
   "description": "Eucerin crema solar facial Fps 50 P\/Sec",
   "price": 2300,
@@ -637,7 +625,7 @@
   "images": "https://i.imgur.com/qQTZRH1.png"
  },
  {
-  "id": 54,
+  "id": 53,
   "title": "Eucerin Solar Spray",
   "description": "Eucerin spray solar toqueseco Fps50",
   "price": 2500,
@@ -649,7 +637,7 @@
   "images": "https://i.imgur.com/7Ka9Rzz.png"
  },
  {
-  "id": 55,
+  "id": 54,
   "title": "Loreal Solar Expertise",
   "description": "Protector Solar Loreal Expertise Fps70 200Ml X 200 Ml",
   "price": 940,
@@ -661,7 +649,7 @@
   "images": "https://i.imgur.com/ryOIJEI.png"
  },
  {
-  "id": 56,
+  "id": 55,
   "title": "Loreal Solar Antirrugas",
   "description": "Protector Solar Exp Antirrugas Fps60 40G",
   "price": 655,
@@ -673,7 +661,7 @@
   "images": "https://i.imgur.com/fNTfEwB.png"
  },
  {
-  "id": 57,
+  "id": 56,
   "title": "Nivea Solar Bronze",
   "description": "Protector Solar Nivea Bronze Fps30",
   "price": 1000,
@@ -685,7 +673,7 @@
   "images": "https://i.imgur.com/Y15OY9k.png"
  },
  {
-  "id": 58,
+  "id": 57,
   "title": "Nivea Sun Protect",
   "description": "Sun Protect & Hidrate Locion Nivea Fps50",
   "price": 1000,
@@ -697,7 +685,7 @@
   "images": "https://i.imgur.com/SSyFJP0.png"
  },
  {
-  "id": 59,
+  "id": 58,
   "title": "Vichy Capital Soleil",
   "description": "Vichy Capital Soleil Spray Ip30 200ml Sp Gr (Port) X 200 ml",
   "price": 2000,
@@ -709,8 +697,8 @@
   "images": "https://i.imgur.com/ATSS7Lt.png"
  },
  {
-  "id": 60,
-  "title": "Vichy Capital Soleil Kid W",
+  "id": 59,
+  "title": "Vichy Capital Soleil K",
   "description": "Vichy Capital Soleil Spray Kid W.Res Ip50+ Sp El (Pt) X 200 ml",
   "price": 2000,
   "discountPercentage": 17.47,
@@ -721,7 +709,7 @@
   "images": "https://i.imgur.com/zuWLMAq.png"
  },
  {
-  "id": 61,
+  "id": 60,
   "title": "Cepillo Eléctrico Gum",
   "description": "Gum cepillo eléctrico Rotapower2202",
   "price": 1480,
@@ -733,7 +721,7 @@
   "images": "https://i.imgur.com/0yRRM6s.png"
  },
  {
-  "id": 62,
+  "id": 61,
   "title": "Repuesto de cepillo Gum",
   "description": "Gum repuesto Rotapower",
   "price": 480,
@@ -745,7 +733,7 @@
   "images": "https://i.imgur.com/DhvGb0c.png"
  },
  {
-  "id": 63,
+  "id": 62,
   "title": "Monitor Citizen Pro",
   "description": "Monitor Citizen Pro automático para brazo",
   "price": 4800,
@@ -757,7 +745,7 @@
   "images": "https://i.imgur.com/Wt8chy3.png"
  },
  {
-  "id": 64,
+  "id": 63,
   "title": "Monitor Citizen",
   "description": "Monitor Citizen automático para brazo",
   "price": 4330,
@@ -769,7 +757,7 @@
   "images": "https://i.imgur.com/5bcgGEf.png"
  },
  {
-  "id": 65,
+  "id": 64,
   "title": "Cortadora de pelo Xion",
   "description": "Cortadora de pelo y barba Xion",
   "price": 1520,
@@ -781,7 +769,7 @@
   "images": "https://i.imgur.com/hBSE1w8.png"
  },
  {
-  "id": 66,
+  "id": 65,
   "title": "Cortadora de pelo Xion",
   "description": "Cortadora de pelo 5x1 Xion",
   "price": 2200,
@@ -793,7 +781,7 @@
   "images": "https://i.imgur.com/SbYHusL.png"
  },
  {
-  "id": 67,
+  "id": 66,
   "title": "Afeitadora Xion",
   "description": "Afeitadora Recargable Xion",
   "price": 1900,
@@ -805,7 +793,7 @@
   "images": "https://i.imgur.com/nFuqHFB.png"
  },
  {
-  "id": 68,
+  "id": 67,
   "title": "Planchita Xion",
   "description": "Planchita Xion Tourmalina Modeladora",
   "price": 2450,

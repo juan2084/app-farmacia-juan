@@ -38,11 +38,12 @@ const ItemDetail = ({ route, navigation }) => {
             source={{ uri: product.images}}
             style={orientation === "portrait" ? styles.image : styles.imageLandscape}
             resizeMode="cover"
+          
           />
        <View style={orientation === "portrait" ? styles.textContainer : styles.textContainerLandscape}>
             <Text>{product.title}</Text>
             <Text>{product.description}</Text>
-            <Text style={styles.price}>Precio ${product.price}</Text>
+            <Text style={styles.price}>Precio $ {product.price}</Text>
             <Button title="Add cart"></Button>
           </View>
         </View>
@@ -61,8 +62,8 @@ const styles = StyleSheet.create({
     padding: 30,
   },
   image: {
-    width: '350%',
-    height: 450,
+    width: '100%',
+    height: '80%',
   },
   imageLandscape: {
     width: '65%',

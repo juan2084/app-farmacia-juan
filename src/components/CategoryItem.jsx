@@ -19,8 +19,8 @@ export default CategoryItem
 
 const styles = StyleSheet.create({
   text: {
-    color: colors.platinum,
+    color: colors.lightGrey,
     textAlign: "center",
-    fontSize: 20,
-  },
+    fontSize: 24,
+    },
 })
