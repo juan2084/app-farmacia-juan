@@ -52,11 +52,11 @@ export default ItemListCategory
 const styles = StyleSheet.create({
     flatListContainer: {
       width: '100%',
-      backgroundColor: colors.salmon,
+      backgroundColor: colors.darkOrange,
       flex: 1,
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      padding: 20
+      padding: 30
     },
   })

@@ -31,7 +31,6 @@ const styles = StyleSheet.create({
     image: {
       height: 200,
       width: 140,
-      borderRadius: 8
     },
     additionalStyles: {
       paddingLeft: 10,
@@ -40,6 +39,7 @@ const styles = StyleSheet.create({
       width: 340,
       justifyContent: 'space-between',
       margin: 20,
+      backgroundColor: colors.salmon
     },
     textCategory: {
       color: colors.red,

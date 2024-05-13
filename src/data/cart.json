@@ -1,0 +1,15 @@
+[
+    {
+        "id": 67,
+        "title": "Planchita Xion",
+        "description": "Planchita Xion Tourmalina Modeladora",
+        "price": 2450,
+        "discountPercentage": 7.54,
+        "rating": 4.7,
+        "stock": 14,
+        "brand": "Xion",
+        "category": "Electrónica",
+        "images": "https://i.imgur.com/v6jprgi.png",
+        "quantity": 2
+    }
+]
