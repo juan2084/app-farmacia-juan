@@ -25,7 +25,7 @@ const ItemDetail = ({ route, navigation }) => {
 
   return (
     <View>
-      <Button onPress={() => navigation.goBack()} title="Go back" />
+      <Button onPress={() => navigation.goBack()} title="Atrás" />
       {product ? (
         <View
             style={
@@ -44,7 +44,7 @@ const ItemDetail = ({ route, navigation }) => {
             <Text>{product.title}</Text>
             <Text>{product.description}</Text>
             <Text style={styles.price}>Precio $ {product.price}</Text>
-            <Button title="Add cart"></Button>
+            <Button title="Agregar al carrito"></Button>
           </View>
         </View>
       ) : null}

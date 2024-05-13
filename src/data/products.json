@@ -387,7 +387,7 @@
  {
   "id": 33,
   "title": "Preterax",
-  "description": "Preterax. Antiinflamatorio, en presentación de 10/2,5 Mg",
+  "description": "Antiinflamatorio, en presentación de 10/2,5 Mg",
   "price": 1340,
   "discountPercentage": 12.21,
   "rating": 4.18,
@@ -399,7 +399,7 @@
  {
   "id": 34,
   "title": "Bronax",
-  "description": "Bronax. Solución oftálmica estéril",
+  "description": "Solución oftálmica estéril",
   "price": 1580,
   "discountPercentage": 15.2,
   "rating": 4.08,
@@ -448,7 +448,7 @@
   "id": 38,
   "title": "Enteronor 32",
   "description": "En presentación de 32 cápsulas. Es un antibiótico no absorbible utilizado en diarreas bacterianas",
-  "price": 890,
+  "price": 1900,
   "discountPercentage": 9.03,
   "rating": 4.84,
   "stock": 18,
@@ -459,7 +459,7 @@
  {
   "id": 39,
   "title": "Bcaa 2200",
-  "description": "Bcaa 2200. En presentación de 160 cápsulas",
+  "description": "En presentación de 160 cápsulas",
   "price": 2500,
   "discountPercentage": 11.61,
   "rating": 4.96,
@@ -471,7 +471,7 @@
  {
   "id": 40,
   "title": "Vitamina B12",
-  "description": "Vitamina B12. En presentación de 100 comprimidos",
+  "description": "En presentación de 100 comprimidos",
   "price": 1070,
   "discountPercentage": 16.43,
   "rating": 4.42,
@@ -555,7 +555,7 @@
  {
   "id": 47,
   "title": "Magnesium",
-  "description": "Magnesium. En presentación de 250mg",
+  "description": "En presentación de 250mg",
   "price": 1100,
   "discountPercentage": 16.89,
   "rating": 4.5,

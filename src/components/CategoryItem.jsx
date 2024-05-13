@@ -19,7 +19,7 @@ export default CategoryItem
 
 const styles = StyleSheet.create({
   text: {
-    color: colors.lightGrey,
+    color: colors.grey,
     textAlign: "center",
     fontSize: 24,
     },
