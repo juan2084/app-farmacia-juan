@@ -1,11 +1,17 @@
 import { StyleSheet, Text, View, useWindowDimensions } from 'react-native'
 import React from 'react'
 import { colors } from '../constants/colors'
+import { useSelector } from 'react-redux'
 
 const Header = ({route}) => {
+  const categorySelected = useSelector(state => state.shop.value.categorySelected)
   const {height, width} = useWindowDimensions()
+
+  console.log(route.name)
+
   return (
     <View style = {styles.container}>
+      {/* {categorySelected ? <Text style = {width > 360 ? styles.text: styles.textSmall}>{categorySelected}</Text> : <Text style = {width > 360 ? styles.text: styles.textSmall}>{route.name}</Text>} */}
       <Text style = {width > 360 ? styles.text: styles.textSmall}>{route.name}</Text>
     </View>
   )
