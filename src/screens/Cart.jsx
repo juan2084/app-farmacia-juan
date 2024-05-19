@@ -3,10 +3,16 @@ import React from 'react'
 import CartItem from '../components/CartItem';
 import { colors } from '../constants/colors';
 import { useSelector } from 'react-redux';
+import { usePostOrderMutation } from '../services/shopService';
 
 const Cart = () => {
 
     const {items: CartData, total} = useSelector(state => state.cart.value)
+    const [triggerPostOrder, result] = usePostOrderMutation()
+
+    const onConfirmOrder = () => {
+        triggerPostOrder({items: CartData, user: 'Juan', total})
+    }
 
     return (
     <View style={styles.container}>
@@ -23,7 +29,7 @@ const Cart = () => {
         />
         <View style={styles.totalContainer}>
             <Pressable>
-                <Text style={styles.confirmText}>
+                <Text style={styles.confirmText} onPress={onConfirmOrder}>
                     Confirmar
                 </Text>
             </Pressable>
