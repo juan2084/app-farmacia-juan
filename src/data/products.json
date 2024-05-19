@@ -290,15 +290,15 @@
  },
  {
   "id": 25,
-  "title": "Toallitas Dr Selby",
-  "description": "Toallitas Dr Selby Bebe. En presentación caja de 60",
-  "price": 200,
+  "title": "Bolsas",
+  "description": "Conservan la leche materna de manera segura. Cuentan con rotulador.",
+  "price": 370,
   "discountPercentage": 6.85,
   "rating": 4.8,
   "stock": 40,
-  "brand": "Dr. Selby",
+  "brand": "Pump",
   "category": "Bebés",
-  "images": "https://i.imgur.com/V0kl8D8.png"
+  "images": "https://i.imgur.com/RkLmfnH.png"
  },
  {
   "id": 26,
@@ -326,15 +326,15 @@
  },
  {
   "id": 28,
-  "title": "J&J Polvo de Almidon",
-  "description": "Polvo de Almidón-Fécula J&J. En presentación de 200 gramos",
+  "title": "Fecula Simond'S",
+  "description": "Elaborado con almidón de maíz de alta pureza. En presentación de 100 gramos",
   "price": 380,
   "discountPercentage": 10.14,
   "rating": 4.75,
   "stock": 40,
-  "brand": "Jhonson & Jhonson",
+  "brand": "Simond's",
   "category": "Bebés",
-  "images": "https://i.imgur.com/tZGYyxI.png"
+  "images": "https://i.imgur.com/rSwQW1E.png"
  },
  {
   "id": 29,
@@ -734,27 +734,27 @@
  },
  {
   "id": 62,
-  "title": "Monitor Citizen Pro",
-  "description": "Monitor Citizen Pro automático para brazo",
+  "title": "Monitor Citizen",
+  "description": "Monitor Citizen Pro automático para brazo, modelo Ch-671F",
   "price": 4800,
   "discountPercentage": 13.1,
   "rating": 4.29,
   "stock": 10,
   "brand": "Citizen",
   "category": "Electrónica",
-  "images": "https://i.imgur.com/Wt8chy3.png"
+  "images": "https://i.imgur.com/fk64dVd.png"
  },
  {
   "id": 63,
   "title": "Monitor Citizen",
-  "description": "Monitor Citizen automático para brazo",
+  "description": "Monitor Citizen automático para brazo, modelo Ch-617",
   "price": 4330,
   "discountPercentage": 16.28,
   "rating": 4.24,
   "stock": 12,
   "brand": "Citizen",
   "category": "Electrónica",
-  "images": "https://i.imgur.com/5bcgGEf.png"
+  "images": "https://i.imgur.com/YLFvYl0.png"
  },
  {
   "id": 64,
@@ -794,14 +794,14 @@
  },
  {
   "id": 67,
-  "title": "Planchita Xion",
-  "description": "Planchita Xion Tourmalina Modeladora",
+  "title": "Oximetro Dedo",
+  "description": "Oximetro de dedo de la marca AEON con pantalla OLED de color",
   "price": 2450,
   "discountPercentage": 7.54,
   "rating": 4.7,
   "stock": 14,
-  "brand": "Xion",
+  "brand": "Aeon",
   "category": "Electrónica",
-  "images": "https://i.imgur.com/v6jprgi.png"
+  "images": "https://i.imgur.com/eBzFyOX.png"
  }
 ]
