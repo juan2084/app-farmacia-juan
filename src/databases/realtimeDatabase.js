@@ -1,0 +1,1 @@
+export const baseUrl = "https://farmacia-juan-default-rtdb.firebaseio.com/"

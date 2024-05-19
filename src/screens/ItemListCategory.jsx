@@ -1,9 +1,9 @@
 import { FlatList, FlatListComponent, StyleSheet, Text, View } from 'react-native'
 import { useState, useEffect } from 'react'
 import { colors } from '../constants/colors'
-import products from '../data/products.json'
 import ProductItem from '../components/ProductItem'
 import Search from '../components/Search'
+import { useGetProductsByCategoryQuery } from '../services/shopService'
  
 const ItemListCategory = ({
   setCategorySelected = () => {},
@@ -17,6 +17,8 @@ const ItemListCategory = ({
 
     const {category: categorySelected} = route.params
 
+    const {data: productFetched, error: errorFromFetch, isLoading} = useGetProductsByCategoryQuery(categorySelected)
+
     useEffect(() => {
       regex = /[^a-zA-Z0-9]/
       const hasDigits = (regex.test(keyWord))
@@ -26,14 +28,13 @@ const ItemListCategory = ({
         return
       }
 
-      const productsPrefiltered = products.filter(product => product.category === categorySelected)
-      const productFilter = productsPrefiltered.filter(product => product.title.toLocaleLowerCase().includes(keyWord.toLocaleLowerCase()))    
-      setProductFiltered(productFilter)
-      setError("")
-    }, [keyWord, categorySelected])
+      if(!isLoading) {
+        const productFilter = productFetched.filter(product => product.title.toLocaleLowerCase().includes(keyWord.toLocaleLowerCase()))    
+        setProductFiltered(productFilter)
+        setError("")
+      }
+    }, [keyWord, categorySelected, productFetched, isLoading])
     
-
-
 
   return (
     <View style = {styles.flatListContainer}>
