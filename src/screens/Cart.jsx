@@ -16,25 +16,33 @@ const Cart = () => {
 
     return (
     <View style={styles.container}>
-        <FlatList
-            data={CartData}
-            keyExtractor={cartItem => cartItem.id}
-            renderItem={({item})=> {
-                return (
-                    <CartItem
-                        cartItem={item}
+            {CartData.length === 0 ? (
+                <View style={styles.emptyCartContainer}>
+                    <Text style={styles.emptyCartText}>No hay elementos en el carrito.</Text>
+                </View>
+            ) : (
+                <>
+                    <FlatList
+                        data={CartData}
+                        keyExtractor={cartItem => cartItem.id}
+                        renderItem={({item})=> {
+                            return (
+                                <CartItem
+                                    cartItem={item}
+                                />
+                            )
+                        }}
                     />
-                )
-            }}
-        />
-        <View style={styles.totalContainer}>
-            <Pressable>
-                <Text style={styles.confirmText} onPress={onConfirmOrder}>
-                    Confirmar
-                </Text>
-            </Pressable>
-            <Text>Total: ${total}</Text>
-        </View>
+                    <View style={styles.totalContainer}>
+                        <Pressable>
+                            <Text style={styles.confirmText} onPress={onConfirmOrder}>
+                                Confirmar
+                            </Text>
+                        </Pressable>
+                        <Text>Total: ${total}</Text>
+                    </View> 
+                </>
+            )}
     </View>
   )
 }
@@ -57,5 +65,17 @@ const styles = StyleSheet.create({
         color: colors.blue,
         marginLeft: 10,
         marginRight: 30
+    }, 
+    emptyCartContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    emptyCartText: {
+        fontSize: 22,
+        color: colors.blue,
+        marginLeft: 10,
+        marginRight: 30, 
+        paddingTop: 20
     }
 })

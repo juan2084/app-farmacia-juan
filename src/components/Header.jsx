@@ -11,7 +11,6 @@ const Header = ({route}) => {
 
   return (
     <View style = {styles.container}>
-      {/* {categorySelected ? <Text style = {width > 360 ? styles.text: styles.textSmall}>{categorySelected}</Text> : <Text style = {width > 360 ? styles.text: styles.textSmall}>{route.name}</Text>} */}
       <Text style = {width > 360 ? styles.text: styles.textSmall}>{route.name}</Text>
     </View>
   )
@@ -37,7 +36,6 @@ const styles = StyleSheet.create({
     }, 
     textSmall: {
       color: colors.grey,
-      // fontFamily: 'Josefin',
       fontSize: 16
     }
 })
