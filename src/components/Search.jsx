@@ -1,6 +1,5 @@
 import { Pressable, StyleSheet, Text, TextInput, View } from "react-native"
 import React, { useState } from "react"
-import { AntDesign } from "@expo/vector-icons"
 import { colors } from "../constants/colors"
 import { Feather } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -14,7 +13,7 @@ const Search = ({ onSearch = () => {}, error = "", goBack = () => {} }) => {
       <View style={styles.container}>
         <TextInput
           style={styles.input}
-          placeholder="Search..."
+          placeholder="Buscar..."
           value={keyword}
           onChangeText={setKeyword}
         />
