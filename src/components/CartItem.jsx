@@ -42,7 +42,7 @@ const CartItem = ({ cartItem }) => {
             >
                 <View style={styles.centeredView}>
                     <View style={styles.modalView}>
-                        <Text style={styles.modalText}>¿Estás seguro que deseas eliminar este artículo del carrito?</Text>
+                        <Text style={styles.modalText}>¿Estás seguro que deseas eliminar {cartItem.title} del carrito?</Text>
                         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                             <TouchableOpacity
                                 style={[styles.button, styles.buttonCancel]}

@@ -8,6 +8,7 @@ import OrderStack from "./OrderStackNavigator"
 import Header from "../components/Header"
 import { FontAwesome5, FontAwesome6 } from "@expo/vector-icons"
 import { Ionicons } from "@expo/vector-icons"
+import MyProfileStackNavigator from "./MyProfileStackNavigator"
 
 const Tab = createBottomTabNavigator()
 
@@ -65,6 +66,23 @@ const BottomTabNavigator = () => {
                             <View>
                                 <Ionicons
                                     name="receipt"
+                                    size={24}
+                                    color={focused ? "black" : colors.lightGrey}
+                                />
+                            </View>
+                        )
+                    },
+                }}
+            />
+             <Tab.Screen
+                name="Mi perfil"
+                component={MyProfileStackNavigator}
+                options={{
+                    tabBarIcon: ({ focused }) => {
+                        return (
+                            <View>
+                                <Ionicons
+                                    name="person-circle"
                                     size={24}
                                     color={focused ? "black" : colors.lightGrey}
                                 />
