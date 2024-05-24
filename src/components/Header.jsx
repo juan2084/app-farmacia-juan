@@ -7,8 +7,6 @@ const Header = ({route}) => {
   const categorySelected = useSelector(state => state.shop.value.categorySelected)
   const {height, width} = useWindowDimensions()
 
-  console.log(route.name)
-
   return (
     <View style = {styles.container}>
       <Text style = {width > 360 ? styles.text: styles.textSmall}>{route.name}</Text>

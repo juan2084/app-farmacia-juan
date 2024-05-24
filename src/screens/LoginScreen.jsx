@@ -34,12 +34,12 @@ const LoginScreen = ({navigation}) => {
         <View style={styles.container}>
             <Text style={styles.title}>Iniciar sesión</Text>
             <InputForm
-                label={"email"}
+                label={"Email"}
                 onChange={setEmail}
                 error={""}
             />
             <InputForm 
-                label={"password"}
+                label={"Contraseña"}
                 onChange={setPassword}
                 error={""}
                 isSecure={true}
