@@ -1,19 +1,24 @@
 import { Image, StyleSheet, View } from "react-native";
 import React from "react";
 import AddButton from "../components/AddButton";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useGetProfileImageQuery } from "../services/shopService";
+import { clearUser } from "../features/User/userSlice";
 
 const MyProfile = ({navigation}) => {
 
+    const dispatch = useDispatch()
+    
     const {imageCamera, localId} = useSelector(state => state.auth.value)
     const {data: imageFromBase} = useGetProfileImageQuery(localId)
 
-    console.log("Estoy en este" + localId);
-
     const launchCamera = async () => {
-        navigation.navigate('Image selector')
+        navigation.navigate("Image selector")
     };
+
+    const signOut = async () => {
+        dispatch(clearUser())
+    }
 
     const defaultImageRoute = "../../assets/images/defaultProfile.png"
 
@@ -39,6 +44,10 @@ const MyProfile = ({navigation}) => {
                         ? "Modificar foto de perfil"
                         : "Agregar foto de perfil"
                 }
+            />
+             <AddButton
+                onPress={signOut}
+                title="Cerrar sesión"
             />
         </View>
     );
