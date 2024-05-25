@@ -39,19 +39,18 @@ const SignupScreen = ({ navigation }) => {
             const validation = signupSchema.validateSync({email, password, confirmPassword})
             triggerSignUp({email, password, returnSecureToken: true})
         }
-        catch (err) {
-            console.log("Catch error");
-            console.log(err.message); 
+        catch (error) {
+            console.log(error.message); 
 
             switch(err.path){
                 case "email":
-                    setErrorMail(err.message)
+                    setErrorMail(error.message)
                     break;
                 case "password":
-                    setErrorPassword(err.message)
+                    setErrorPassword(error.message)
                     break;
                 case "confirmPassword":
-                    setErrorConfirmPassword(err.message)
+                    setErrorConfirmPassword(error.message)
                     break;
                 default:
                     break; 

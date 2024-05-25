@@ -1,30 +1,37 @@
 import React, { useState } from "react";
 import { Image, View, StyleSheet, Text } from "react-native";
 import * as ImagePicker from "expo-image-picker";
+import * as ExpoLibrary from "expo-media-library";
 import { useDispatch, useSelector } from "react-redux";
 import { setCameraImage } from "../features/User/userSlice";
 import AddButton from "../components/AddButton";
 import { colors } from "../constants/colors";
-import { usePostProfileImageMutation } from "../services/shopService";
-// import { saveImage } from "../Features/User/userSlice";
+import { useGetProfileImageQuery, usePostProfileImageMutation } from "../services/shopService";
+
 
 const  ImageSelector = ({ navigation }) => {
-    const [image, setImage] = useState(null);
-    const { localId } = useSelector((state) => state.auth.value);
+    const [image, setImage] = useState(null)
+    const [isImageFromCamera, setIsImageFromCamera] = useState(false)
+    const [imageURI, setImageURI] = useState(null)
 
+    const { localId } = useSelector((state) => state.auth.value);
+    const {data: imageFromBase} = useGetProfileImageQuery(localId)
     const [triggerPostImage, result] = usePostProfileImageMutation();
-    console.log(localId);
 
     const dispatch = useDispatch();
-
 
     const verifyCameraPermissions = async () => {
         const { granted } = await ImagePicker.requestCameraPermissionsAsync();
         return granted;
     };
+
+    const verifyGalleryPermissions = async () => {
+        const { granted } = await ImagePicker.requestMediaLibraryPermissionsAsync();
+        return granted;
+    };
  
     const pickImage = async () => {
-
+        setIsImageFromCamera(true)
         try{
             const permissionCameraOk = await verifyCameraPermissions();
 
@@ -38,6 +45,7 @@ const  ImageSelector = ({ navigation }) => {
                 });
     
                 if (!result.canceled) {
+                    setImageURI(result.assets[0].uri)
                     const image = `data:image/jpeg;base64,${result.assets[0].base64}`
                     setImage(image)
                 }
@@ -46,12 +54,41 @@ const  ImageSelector = ({ navigation }) => {
             console.log(error)
         }       
     };
+
+
+    const pickLibraryImage = async () => {
+        try{
+            setIsImageFromCamera(false)
+            const permissionLibraryOk = await verifyGalleryPermissions();
+
+            if (permissionLibraryOk) {
+                const result = await ImagePicker.launchImageLibraryAsync({
+                    base64: true,
+                    allowsEditing: true,
+                    aspect: [1, 1],
+                    mediaTypes: ImagePicker.MediaTypeOptions.Images,
+                    quality: 0.1,
+                })
+               
+                if (!result.canceled) {                  
+                    const image = `data:image/jpeg;base64,${result.assets[0].base64}`
+                    setImage(image)
+                }
+            }
+        } catch (error) {
+            console.log(error)
+        }
+
+    }
     
     const confirmImage = async () => {
         try {
             dispatch(setCameraImage(image));
             triggerPostImage({image, localId})
-            navigation.goBack();
+            if (isImageFromCamera) {
+                const result = await ExpoLibrary.createAssetAsync(imageURI)
+            }
+            navigation.goBack()
         } catch (error) {
             console.log(error);
         }
@@ -60,10 +97,11 @@ const  ImageSelector = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-            {image ? (
+            {image || imageFromBase ? (
                 <>
-                    <Image source={{ uri: image }} style={styles.image} />
+                    <Image source={{ uri: image || imageFromBase?.image }} style={styles.image} />
                     <AddButton title="Toma una nueva foto" onPress={pickImage} />
+                    <AddButton title="Seleccionar una foto de la galería" onPress={pickLibraryImage} />
                     <AddButton title="Confirmar foto" onPress={confirmImage} />
                 </>
             ) : (
