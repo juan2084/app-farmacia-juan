@@ -28,11 +28,19 @@ export const shopApi = createApi({
             },
         }),
         postOrder: builder.mutation({
-            query: ({...order}) => ({
-                url: 'orders.json',
-                method: 'POST',
-                body: order
-            }),
+            query: ({ items, user, total}) => {
+                const orderDate = new Date().toLocaleString();
+                return {
+                    url: 'orders.json',
+                    method: 'POST',
+                    body: {
+                        items: items, 
+                        user: user, 
+                        total: total, 
+                        date: orderDate                      
+                    },
+                };
+            },
             invalidatesTags: ['getOrders']
         }),
         getProfileImage: builder.query({

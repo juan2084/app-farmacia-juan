@@ -18,8 +18,7 @@ const Cart = () => {
     const {items: CartData, total} = useSelector(state => state.cart.value)
     const [triggerPostOrder, result] = usePostOrderMutation()
     const [modalVisible, setModalVisible] = useState(false);
-
-
+        
 
     const onConfirmOrder = async () => {
         try {

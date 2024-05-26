@@ -1,7 +1,6 @@
 import React from "react"
 import OrderScreen from "../screens/Orders"
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
-import { StyleSheet } from "react-native"
 
 const Stack = createNativeStackNavigator()
 
