@@ -51,7 +51,11 @@ const  ImageSelector = ({ navigation }) => {
                 }
             }
         } catch (error) {
-            console.log(error)
+            Alert.alert(
+                'Error',
+                'No tiene permisos para manejar la cámara.',
+                [{ text: 'OK' }]
+              );
         }       
     };
 
@@ -76,7 +80,11 @@ const  ImageSelector = ({ navigation }) => {
                 }
             }
         } catch (error) {
-            console.log(error)
+            Alert.alert(
+                'Error',
+                'No tiene permisos para acceder a la galería.',
+                [{ text: 'OK' }]
+              );
         }
 
     }
@@ -90,7 +98,11 @@ const  ImageSelector = ({ navigation }) => {
             }
             navigation.goBack()
         } catch (error) {
-            console.log(error);
+            Alert.alert(
+                'Error',
+                'Hubo un problema al intentar guardar la imagen.',
+                [{ text: 'OK' }]
+              );
         }
       
     };

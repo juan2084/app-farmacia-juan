@@ -1,4 +1,4 @@
-import { FlatList, FlatListComponent, StyleSheet, Text, View } from 'react-native'
+import { FlatList, StyleSheet, View } from 'react-native'
 import { useState, useEffect } from 'react'
 import { colors } from '../constants/colors'
 import ProductItem from '../components/ProductItem'

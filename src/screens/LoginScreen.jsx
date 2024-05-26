@@ -14,6 +14,8 @@ const LoginScreen = ({navigation}) => {
     const [triggerSignIn, result] = useSignInMutation()
     const [email, setEmail] =  useState()
     const [password, setPassword] = useState()
+    const [errorMessage, setErrorMessage] = useState('')
+
     
 
     useEffect(() => {
@@ -32,14 +34,21 @@ const LoginScreen = ({navigation}) => {
                         })
                     )
                 })
-                .catch((err) => {
-                    console.log(err)
+                .catch((error) => {
+                    Alert.alert(
+                        'Error',
+                        'Hubo un problema al cargar los datos. Por favor, intenta nuevamente más tarde.',
+                        [{ text: 'OK' }]
+                      );
                 })
+        } else if (result.isError) {
+            setErrorMessage('Usuario o contraseña incorrectos')
         }
     }, [result])
 
 
     const onSubmit = () => {
+        setErrorMessage('') 
         triggerSignIn({email, password})
     }
   return (
@@ -57,6 +66,7 @@ const LoginScreen = ({navigation}) => {
                 error={""}
                 isSecure={true}
             />
+            {errorMessage ? <Text style={styles.errorText}>{errorMessage}</Text> : null}
             <SubmitButton 
                 onPress={onSubmit}
                 title = "Ingresar"
@@ -94,10 +104,14 @@ const styles = StyleSheet.create({
     },
     sub: {
         fontSize: 14,
-        color: 'black',
+        color: colors.black,
     },
     subLink: {
         fontSize: 14,
-        color: 'blue',
+        color: colors.blue,
+    },
+    errorText: {
+        color: 'red',
+        fontSize: 14,
     }
 })

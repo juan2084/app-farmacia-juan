@@ -19,5 +19,3 @@ const OrderStack = () => {
 }
 
 export default OrderStack
-
-const styles = StyleSheet.create({})

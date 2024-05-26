@@ -16,11 +16,9 @@ const Navigator = () => {
    (async () => {
     try {
       const response = await getSession()
-      console.log({responseGetSession: response})
 
       if(response.rows._array.length){
         const user = response.rows._array[0]
-        console.log(user);
         dispatch(setUser({
           email: user.email,
           localId: user.localId,
@@ -29,7 +27,11 @@ const Navigator = () => {
       }
    
     } catch (error) {
-      console.log(error)
+      Alert.alert(
+        'Error',
+        'Hubo un problema al cargar los datos. Por favor, intenta nuevamente más tarde.',
+        [{ text: 'OK' }]
+      );
     }
    })()
  }, [])
@@ -44,5 +46,3 @@ const Navigator = () => {
 }
 
 export default Navigator
-
-const styles = StyleSheet.create({})
