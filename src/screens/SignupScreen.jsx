@@ -40,8 +40,6 @@ const SignupScreen = ({ navigation }) => {
             triggerSignUp({email, password, returnSecureToken: true})
         }
         catch (error) {
-            console.log(error.message); 
-
             switch(err.path){
                 case "email":
                     setErrorMail(error.message)

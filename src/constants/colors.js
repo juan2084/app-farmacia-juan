@@ -15,4 +15,5 @@ export const colors = {
     platinum: '#E5E4E2',
     lightBlue: '#A7E3F1',
     blue: '#0831F7',
+    white: '#FFFFFF'
 }

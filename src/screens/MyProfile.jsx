@@ -20,10 +20,13 @@ const MyProfile = ({navigation}) => {
     const signOut = async () => {
         try {
             const response = await truncateSessionsTable()
-            console.log(response);
             dispatch(clearUser())
         } catch (error) {
-            console.log({errorSignOutDB: error})   
+            Alert.alert(
+                'Error',
+                'Hubo un problema al cerrar sesión, intenta nuevamente más tarde.',
+                [{ text: 'OK' }]
+              );
         }
     }
 

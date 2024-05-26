@@ -1,4 +1,3 @@
-import { StyleSheet } from 'react-native'
 import React from 'react'
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import Home from '../screens/Home'
@@ -34,5 +33,3 @@ const HomeStackNavigator = () => {
 }
 
 export default HomeStackNavigator
-
-const styles = StyleSheet.create({})

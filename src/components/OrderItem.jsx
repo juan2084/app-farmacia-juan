@@ -13,7 +13,7 @@ const OrderItem = ({ order }) => {
         <View style={styles.card} onPress={() => {}}>
             <View style={styles.textContainer}>
                 <Text style={styles.text}>
-                    {new Date(order.createdAt).toLocaleString()}
+                    {new Date(order?.createdAt || null).toLocaleString()}
                 </Text>
                 <Text style={styles.text2}>${total}</Text>
             </View>
@@ -44,10 +44,10 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 17,
-        color: "black",
+        color: colors.black,
     },
     text2: {
         fontSize: 19,
-        color: "gray",
+        color: colors.grey,
     },
 });
